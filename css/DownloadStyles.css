@@ -1,0 +1,13 @@
+.donwload{
+    border: 10px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.donwload a{
+    border: 5px dashed green;
+    margin: 10px;
+    padding: 10px;
+    background-color: khaki;
+}

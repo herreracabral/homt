@@ -1,0 +1,108 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Tamaño de Secciones*/
+.header, .objetivos, .informacionPagina     {height: 98vh;}
+.aboutusSection, .activityLecto, 
+.activityLogicMath, .activityPsico, 
+.bgcontacts, .donwload                        {height: 85vh;}
+footer                                        {height: 80vh;}
+
+/*Fuentes*/
+h1  {font:900  10vw 'Montserrat', sans-serif;}
+h2  {font:700 5vw 'Jost', sans-serif;}
+h3  {font:700 3vw 'Jost', sans-serif;}
+h4  {font:700 1.4rem 'Jost', sans-serif;}
+h5  {font:700 1.3rem 'Jost', sans-serif;}
+h6  {font:700 1.2rem 'Jost', sans-serif;}
+p   {font:500 2.5vw 'Poppins', sans-serif;}
+
+/*Colores*/
+.color1     {color:              #fcbf1e;} 
+.color2     {color:              #40bad5;} 
+.color3     {color:              #035aa6;}
+.colorbg    {background-color:   #120136;} 
+
+/*--------------------------------------------------------*/
+/*Mis Estilos Genericos*/
+/*--------------------------------------------------------*/
+.my-flex{
+    display:            flex;
+    justify-content:    center;
+    align-items:        center;
+}
+.my-nav{
+    display:            inline-flex;
+    flex-wrap:          wrap;
+}
+.SecundaryNav{
+    position:           sticky;
+    top:                0;
+    flex-wrap:          wrap;
+}
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+/*Barra de Navegacion*/
+.navegacion{
+    background-color:           #120136;
+    padding:                    10px;
+    box-shadow: 5px 10px 25px rgb(46, 45, 45);    
+}
+.logonav{
+    text-decoration:    none;
+    color:            white !important; 
+    margin:             5px;
+    font:               700 1rem 'Montserrat', sans-serif;
+
+}
+.navegacion ul{
+    flex-wrap:          wrap;
+}
+.navegacion a{
+    text-decoration:    none;
+    color:            #035aa6;
+}
+.navegacion .btnActive{
+    font-size: 130%;
+    color: salmon;
+}
+.navegacion li{
+    list-style:         none;
+    margin:             5px;
+    padding:            0 15px;
+    text-align:         center;
+    font:               700 1rem 'Jost', sans-serif;
+}
+.ul-barra a:hover{
+    color:            #fcbf1e;
+
+}
+
+/*Footer */
+footer{
+    background-color:           #222831;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footerInfo {
+    font-size: 150%;
+    word-spacing: 5px;
+    /* border: 1px dashed rebeccapurple; */
+}
+.footerInfo h5{
+    padding: 15px;
+}
+.footerInfo a{
+    text-decoration:    none;
+    color:            #035aa6;   
+}
+.footerImg img{
+    width: 10%;
+}

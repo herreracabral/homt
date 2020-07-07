@@ -1,0 +1,13 @@
+.aboutusSection{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.aboutusSection * {
+    margin: 20px;
+}
+
+.textp p{
+    font-size: 3.5vh;
+}
+

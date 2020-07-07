@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Fuentes*/
+p {
+    font-size: initial;
+    margin: 10px
+}
+
+.textp p {
+    text-align: justify;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    text-align: center;
+    /* margin: 5px 30px; */
+}
+
+.bgSectionLecto {
+    background-image: url(/img/lecto.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.bgSectionMath {
+    background-image: url(/img/math.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.bgSectionPsico {
+    background-image: url(/img/PSICO.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.activityLecto,
+.activityLogicMath,
+.activityPsico {
+    display: flex;
+    flex-direction: column;
+}
+
+.activityLecto p,
+.activityLogicMath p,
+.activityPsico p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnContainer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: #fcbf1e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    background-color: #120136;
+    color: white;
+}
+
+.activityNav {
+    margin: 0;
+    padding: 0;
+}
+.activityNav li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 3px;
+}

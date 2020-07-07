@@ -1,0 +1,131 @@
+@media screen and (max-width:800px) {
+    .activityLecto, .activityLogicMath, .activityPsico {height: auto;}
+    .divimg{
+        padding-top: 50px;   
+    }
+    .objetivos{
+        display: flex;
+        flex-direction: column;
+    }
+    .divimg{
+        width: 100%;
+        height: 50vh;
+        max-width: 50vh;
+        height: auto;
+    }
+    .artObjetivos{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /*Paragraphs*/
+    .artObjetivos p, .aboutusSection p{
+        height: auto;
+        font: 500 2.8vw 'Poppins', sans-serif;
+        text-align: justify;
+    }
+    .informacionPagina {
+        display: flex;
+        flex-direction: column;
+    }
+    .infoActividades,.infoMateriales{
+        height: 50vh;
+    }
+    .div1{
+        width: 100%;
+    }
+    .div1 ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .div1 ul li{
+        font-size: 5vh;
+    }
+}
+
+@media only screen and (min-width:621px){
+    .bgSection{
+        background-image: url(/img/aboutus.svg);
+        background-position:            100% bottom;
+        background-repeat:              no-repeat;
+    }
+  
+}
+
+@media only screen and (max-width:620px){
+      /*Index*/
+      .divimg{
+        max-width: 200px;
+        padding-top: 20px;   
+    }
+    .ul-barra li {
+        width: 100%;
+    }
+
+    .centerTXT p, .centerTXT h2{
+        text-align: center;
+    }
+
+    .bgSection{
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,149,149,1) 100%);
+    }
+    footer{
+        height: auto;
+        padding: 10px;
+    }
+    
+    /*Tamaño de Secciones*/
+    .header,.objetivos,.objetivos *,.informacionPagina,.informacionPagina *,
+    .aboutusSection,        .activityLecto, 
+    .activityLogicMath,     .activityPsico, 
+    footer                {height: auto;}
+                                       
+}  
+
+@media only screen and (max-width:320px){
+    /*Index*/
+    .divimg{
+        max-width: 100px;
+        padding-top: 10px;   
+    }
+    .artObjetivos p{
+        height: auto;
+        font: 500 10px 'Poppins', sans-serif;
+        /* text-align: left; */
+    }
+    .aboutusSection p, .activityFull p{
+        width: auto;
+        font: 500 1vh 'Poppins', sans-serif;
+    }
+    .artObjetivos h2, .aboutusSection h2, .activityFull h2{
+        font:700 16px 'Jost', sans-serif;
+    }
+    .activityFull h6{
+        font:700 11px 'Jost', sans-serif;
+    }
+    .div1 ul li, .activityNav li{
+        font-size:4vw;
+        text-align: center;
+    } 
+    .footerInfo a, .footerInfo h4, .footerInfo h5, .copyr{
+        font-size: 6vw;
+    }
+    .footerImg{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn {
+        font-size: 5px;
+        padding: 10px;
+    }
+
+    
+}
+
+
